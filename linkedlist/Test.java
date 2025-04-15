@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Singly{
+public class Test{
 
 
     private ListNode head;
@@ -53,7 +53,7 @@ public class Singly{
     }
    
     public static void main(String[] args) {
-        Singly sll = new Singly();
+        Test sll = new Test();
         sll.head = new ListNode(10);
         ListNode second = new ListNode(1);
         ListNode third = new ListNode(8);
